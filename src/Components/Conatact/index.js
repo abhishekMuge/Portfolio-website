@@ -71,7 +71,10 @@ export default class Contact extends Component {
                   </button>
                 </div>
                 <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                  <a className="text-blue-500 text-center my-3 block">
+                  <a
+                    className="text-blue-500 text-center my-3 block"
+                    href="_blank"
+                  >
                     example@email.com
                   </a>
                 </div>

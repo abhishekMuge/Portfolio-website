@@ -9,19 +9,19 @@ export default function Navbar() {
           </h1>
         </div>
         <nav className="flex flex-wrap items-center justify-center text-lg">
-          <a className="mx-5" href="">
+          <a className="mx-5" href="/">
             Home
           </a>
-          <a className="mx-5" href="">
+          <a className="mx-5" href="/">
             Skils
           </a>
-          <a className="mx-5" href="">
+          <a className="mx-5" href="/">
             Showcase
           </a>
-          <a className="mx-5" href="">
+          <a className="mx-5" href="/">
             Products
           </a>
-          <a className="mx-5" href="">
+          <a className="mx-5" href="/">
             Contact Me
           </a>
         </nav>
