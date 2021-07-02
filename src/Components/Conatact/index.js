@@ -1,5 +1,11 @@
 import React, { Component } from "react";
-
+import {
+  FaFacebookSquare,
+  FaInstagramSquare,
+  FaGithubSquare,
+  FaDribbbleSquare,
+  FaDiscord,
+} from "react-icons/fa";
 export default class Contact extends Component {
   render() {
     return (
@@ -7,12 +13,11 @@ export default class Contact extends Component {
         <section className="text-gray-600 body-font relative">
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-col text-center w-full mb-12">
-              <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-                Contact Me
+              <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
+                Contact with Me
               </h1>
               <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-                gentrify.
+                Have any question, Drop down there
               </p>
             </div>
             <div className="lg:w-1/2 md:w-2/3 mx-auto">
@@ -67,16 +72,33 @@ export default class Contact extends Component {
                 </div>
                 <div className="p-2 w-full">
                   <button className="flex mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">
-                    Button
+                    Send
                   </button>
                 </div>
-                <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+                <div className="p-2 w-full text-xl pt-8 mt-8 border-t border-gray-200 text-center">
                   <a
                     className="text-blue-500 text-center my-3 block"
                     href="_blank"
                   >
-                    example@email.com
+                    abhishekmuge@gmail.com
                   </a>
+                  <span className="inline-flex">
+                    <a className="text-gray-500">
+                      <FaFacebookSquare />
+                    </a>
+                    <a className=" ml-4 text-gray-500">
+                      <FaInstagramSquare />
+                    </a>
+                    <a className=" ml-4 text-gray-500">
+                      <FaGithubSquare />
+                    </a>
+                    <a className=" ml-4 text-gray-500">
+                      <FaDribbbleSquare />
+                    </a>
+                    <a className=" ml-4 text-gray-500">
+                      <FaDiscord />
+                    </a>
+                  </span>
                 </div>
               </div>
             </div>

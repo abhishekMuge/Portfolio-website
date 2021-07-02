@@ -10,19 +10,13 @@ export default function Navbar() {
         </div>
         <nav className="flex flex-wrap items-center justify-center text-lg">
           <a className="mx-5" href="/">
-            Home
+            About Me
           </a>
           <a className="mx-5" href="/">
             Skils
           </a>
           <a className="mx-5" href="/">
             Showcase
-          </a>
-          <a className="mx-5" href="/">
-            Products
-          </a>
-          <a className="mx-5" href="/">
-            Contact Me
           </a>
         </nav>
         <button className="cta-navbar inline-flex items-center justify-center px-6 border-2 rounded-md">

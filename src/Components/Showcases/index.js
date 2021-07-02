@@ -10,6 +10,11 @@ export default class Showcases extends Component {
         <ShowcaseItem />
         <ShowcaseItem />
         <ShowcaseItem />
+        <div className=" text-center">
+          <span className="mt-6 text-base text-black leading-normal py-2 px-6 border border-black border-1 rounded-full cursor-pointer">
+            Show More
+          </span>
+        </div>
       </div>
     );
   }
