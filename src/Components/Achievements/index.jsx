@@ -9,7 +9,7 @@ export default function Achievements() {
 
         <div className="flex items-center justify-center">
           <div className="achieve Item flex flex-col mx-8 text-left p-4 border border-2 rounded-md border-black">
-            <a className="inline-flex items-center block">
+            <a href="/" className="inline-flex items-center block">
               <HiOutlineLocationMarker className="text-lg" />
               <h1 className="text-xl lea">
                 Viva College Of Diploma And Engineering
@@ -19,7 +19,7 @@ export default function Achievements() {
             <h2>Completed Diploma In Computer Engineering</h2>
           </div>
           <div className="achieve Item flex flex-col mx-8 text-left p-4 border border-2 rounded-md border-black">
-            <a className="inline-flex items-center block">
+            <a className="inline-flex items-center block" href="/">
               <HiOutlineLocationMarker className="text-lg" />
               <h1 className="text-xl lea">Atharva College Of Engineering</h1>
             </a>

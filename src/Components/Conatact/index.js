@@ -83,19 +83,19 @@ export default class Contact extends Component {
                     abhishekmuge@gmail.com
                   </a>
                   <span className="inline-flex">
-                    <a className="text-gray-500">
+                    <a href="/" className="text-gray-500">
                       <FaFacebookSquare />
                     </a>
-                    <a className=" ml-4 text-gray-500">
+                    <a href="/" className=" ml-4 text-gray-500">
                       <FaInstagramSquare />
                     </a>
-                    <a className=" ml-4 text-gray-500">
+                    <a href="/" className=" ml-4 text-gray-500">
                       <FaGithubSquare />
                     </a>
-                    <a className=" ml-4 text-gray-500">
+                    <a href="/" className=" ml-4 text-gray-500">
                       <FaDribbbleSquare />
                     </a>
-                    <a className=" ml-4 text-gray-500">
+                    <a href="/" className=" ml-4 text-gray-500">
                       <FaDiscord />
                     </a>
                   </span>
